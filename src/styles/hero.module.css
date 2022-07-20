@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;1,200&family=Patrick+Hand&family=Poppins:wght@300&family=Space+Grotesk:wght@300;400&display=swap');
+
+@font-face {
+    font-family: 'Euclid';
+    src: url('../assets/Fonts/Euclid\ Circular\ A\ Regular.ttf');
+}
+
+.Euclid{
+    font-family: 'Euclid';
+    color: #6B7280;
+}
+
+.SpaceGrotesk{
+    font-family: 'Space Grotesk';
+    font-weight: 800;
+    font-size: 22px;
+}
+
+
+.card{
+height: 561px;
+width: 403px;
+border-radius: 26px;
+background-color: white;
+margin-top: 65px;
+padding-top: 35px;
+z-index: 1000;
+box-shadow: -1px 10px 23px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 10px 23px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 23px -1px rgba(0,0,0,0.75);
+position: relative;
+}
+
+.hero{
+height: 383px;
+width: 333px;
+margin: auto;
+}
+
+.heroInfo{
+    position: absolute;
+    background-color: white;
+    width: 419px;
+    border-radius: 20px;
+    left: 35px;
+    bottom: -14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 299px;
+    box-shadow: -1px 10px 23px -1px rgba(0,0,0,0.75);
+   -webkit-box-shadow: -1px 10px 23px -1px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 10px 23px -1px rgba(0,0,0,0.75);
+}
+
+.firstDiv{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondDiv{
+    width: 90%;
+}
+
+.bids{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}

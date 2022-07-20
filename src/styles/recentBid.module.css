@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;1,200&family=Patrick+Hand&family=Poppins:wght@300&family=Space+Grotesk:wght@300;400&display=swap');
+
+@font-face {
+    font-family: 'Euclid';
+    src: url('../assets/Fonts/Euclid\ Circular\ A\ Regular.ttf');
+}
+
+.SpaceGrotesk{
+    font-family: 'Space Grotesk';
+}
+
+.bid{
+    height: 29px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #D6F379;
+    width: 22%;
+    font-size: 14px;
+    border-radius: 6.85px;
+}
+
+.profile{
+    border-radius: 50%;
+    position: absolute;
+    left: -50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+}

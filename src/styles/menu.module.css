@@ -1,0 +1,68 @@
+.box{
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.spans{
+    background-color:black;
+    margin-top: 15px; 
+}
+
+.firstSpan{
+    height: 5px;
+    border-radius: 10px;
+    width: 100%;
+    background-color:black;
+    margin-top: 3px;
+    animation: rotateOne 1s ease forwards;
+}
+
+.secondSpan{
+    composes: firstSpan;
+    animation: rotateTwo 1s ease forwards;
+}
+
+.bottomSpan{
+    height: 5px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 3px;
+    background-color:black;
+    animation: rotateThree 1s ease forwards;
+}
+
+@keyframes rotateOne {
+    from{
+        transform: rotate(0) translate(0px, 0px);
+    }
+    to{
+        transform: rotate(45deg) translate(15px, 15px);
+    }
+    
+}
+
+@keyframes rotateTwo {
+    from{
+        width: 100%;
+        opacity: 1;
+    }
+    to{
+        width: 0%;
+        opacity: 0;
+    }
+    
+}
+
+@keyframes rotateThree {
+    from{
+        transform: rotate(0) translate(0px, 0px);
+        width: 50%;
+    }
+    to{
+        transform: rotate(-45deg) translate(15px,-15px);
+        width: 100%;
+    }
+    
+}
