@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/hero.module.css';
-import rugby from '../assets/images/image 10.png'; 
+import rugby from '../assets/images/image 10.png';
 import RecentBid from './RecentBid';
 import img1 from '../assets/images/Ellipse 101 (3).png';
 import img2 from '../assets/images/Ellipse 101 (4).png';

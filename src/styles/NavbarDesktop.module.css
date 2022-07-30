@@ -6,7 +6,7 @@
 }
 
 .nav{
-    width: clamp(80%, 1200px, 100%);
+    width: clamp(80%, 1200px, 98%);
     display: flex;
     justify-content: space-between;
     align-items: center;

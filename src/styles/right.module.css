@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;1,200&family=Patrick+Hand&family=Poppins:wght@300&family=Space+Grotesk:wght@300;400&display=swap');
+
+@font-face {
+    font-family: 'Euclid';
+    src: url('../assets/Fonts/Euclid\ Circular\ A\ Regular.ttf');
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 31rem;
+    justify-content: space-between;
+    height: 750px;
+}
+
+.title{
+    color: white;
+    font-size: 3.4375rem;
+    font-family: 'Space Grotesk';
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title span{
+    padding-top: 0.8rem;
+}
+
+.secondLine{
+    display: flex;
+}
+
+.greenText{
+    color: #D6F379;
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    bottom: -15px;
+    right: 0px;
+    width: 100%;
+}
+
+.paragraph{
+    color: #959FB2;
+    font-size: 1.125rem;
+    font-family: 'Euclid';
+    line-height: 1.7rem;
+    margin-top: -10px;
+}
+
+.button{
+    background-color: #FFC145;
+    font-family: 'Euclid';
+    font-weight: 400;
+    border: none;
+    padding: 0.75rem 1.125rem;
+    border-radius: 11px;
+    box-shadow: 0px 9px 26px rgba(255, 193, 69, 0.26);
+}
+
+.buttonSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.0rem;
+}
+
+.badge{
+    display: none;
+    animation: rotate 16s ease alternate infinite;
+}
+
+.bottom{
+    padding: 0rem 1.8rem;
+}
+
+.subtitle{
+    font-family: 'Euclid';
+    color: #151F37;
+    font-size: 1.375rem;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1rem;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .title{
+        color: #151F37;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .right{
+        height: auto;
+        height: auto;
+        width: 80%;
+    }
+    
+    .title{
+        font-size: 2.5rem;
+        flex-wrap: wrap;
+        background-color: bisque;
+    }
+
+    .badge{
+        display: flex;
+    }
+}
