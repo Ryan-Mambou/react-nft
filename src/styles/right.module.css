@@ -11,35 +11,36 @@
     width: 31rem;
     justify-content: space-between;
     height: 750px;
+    margin-top: 1rem;
 }
 
 .title{
     color: white;
     font-size: 3.4375rem;
     font-family: 'Space Grotesk';
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    font-weight: 700;
+    display: block;
 }
 
 .title span{
     padding-top: 0.8rem;
 }
 
-.secondLine{
-    display: flex;
-}
-
 .greenText{
+    display: inline-block;
     color: #D6F379;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .line{
     position: absolute;
-    bottom: -15px;
+    display: inline-block;
+    bottom: -0.25rem;
     right: 0px;
     width: 100%;
+    object-fit: cover;
+    image-rendering: pixelated;
 }
 
 .paragraph{
@@ -57,6 +58,7 @@
     border: none;
     padding: 0.75rem 1.125rem;
     border-radius: 11px;
+    cursor: pointer;
     box-shadow: 0px 9px 26px rgba(255, 193, 69, 0.26);
 }
 
@@ -114,10 +116,17 @@
     .title{
         font-size: 2.5rem;
         flex-wrap: wrap;
-        background-color: bisque;
     }
 
     .badge{
         display: flex;
     }
+
+}
+
+@media screen and (max-width: 768px){
+    .stats{
+        flex-direction: column;
+    }
+
 }
