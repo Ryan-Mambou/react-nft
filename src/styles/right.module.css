@@ -90,6 +90,10 @@
     margin-top: -1rem;
 }
 
+.stat{
+    display: flex;
+}
+
 @keyframes rotate {
     0%{
         transform: rotate(0deg);
@@ -129,4 +133,11 @@
         flex-direction: column;
     }
 
+    .bottom{
+        padding: 0rem;
+    }
+    
+    .stat:nth-child(2){
+        align-self: flex-end;
+    }
 }
