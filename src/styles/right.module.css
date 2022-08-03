@@ -112,9 +112,10 @@
 
 @media screen and (max-width: 950px) {
     .right{
+        padding-top: 2rem;
         height: auto;
         height: auto;
-        width: 80%;
+        width: 95%;
     }
     
     .title{

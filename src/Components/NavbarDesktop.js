@@ -15,8 +15,11 @@ function NavbarDesktop() {
             </ul>
         </div>
         <div className={styles.right}>
-            <FiSearch style={{color: '#6B7280', fontSize: '22px'}}/>
-            <span className={styles.switch}>Swicth</span>
+            <FiSearch style={{color: '#6B7280', fontSize: '22px', cursor: 'pointer'}}/>
+            <label class={styles.switch}>
+            <input type="checkbox" />
+            <span class={styles.slider}></span>
+            </label>
             <button className={styles.button}>Connect Wallet</button>
         </div>
     </div>
